@@ -9,10 +9,14 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/EGameState.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameListeners.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/EEnemyType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Fractions/EFraction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/TypeEnemies/MiliEnemy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2xx3xrY9N8DIrpPJtuNu0lc6pbg" />
@@ -35,7 +39,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748866150174</updated>
-      <workItem from="1748866162752" duration="2619000" />
+      <workItem from="1748866162752" duration="3395000" />
+      <workItem from="1748935393851" duration="5457000" />
     </task>
     <servers />
   </component>

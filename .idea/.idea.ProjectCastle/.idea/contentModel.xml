@@ -23,7 +23,6 @@
                   <e p="Bootstrap License.txt" t="Include" />
                 </e>
               </e>
-              <e p="OdinUpgrader.cs" t="Include" />
             </e>
             <e p="ReadMe.txt" t="Include" />
           </e>
@@ -1228,13 +1227,22 @@
         </e>
         <e p="Project" t="Include">
           <e p="Scripts" t="Include">
-            <e p="Enemy" t="Include">
-              <e p="Enemy.cs" t="Include" />
-            </e>
             <e p="GameManager" t="Include">
               <e p="EGameState.cs" t="Include" />
               <e p="GameListeners.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
+            </e>
+            <e p="Units" t="Include">
+              <e p="Enemy" t="Include">
+                <e p="EEnemyType.cs" t="Include" />
+                <e p="Enemy.cs" t="Include" />
+                <e p="TypeEnemies" t="Include">
+                  <e p="MiliEnemy.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Fractions" t="Include">
+                <e p="EFraction.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
