@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Project.Scripts.GameManager
+namespace Scripts.GameManager
 {
     public interface IGameListener
     {

@@ -9,12 +9,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/EGameState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameListeners.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/EEnemyType.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Fractions/EFraction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/EGameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameListeners.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/TypeEnemies/MiliEnemy.cs" />
     </changedPaths>
@@ -40,7 +40,9 @@
       <option name="presentableId" value="Default" />
       <updated>1748866150174</updated>
       <workItem from="1748866162752" duration="3395000" />
-      <workItem from="1748935393851" duration="5457000" />
+      <workItem from="1748935393851" duration="5764000" />
+      <workItem from="1749035489940" duration="983000" />
+      <workItem from="1749105528898" duration="2105000" />
     </task>
     <servers />
   </component>

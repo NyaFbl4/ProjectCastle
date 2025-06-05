@@ -1,21 +1,20 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Project.Scripts.Units.Fractions;
 using UnityEngine;
 
-namespace Enemy
+namespace Scripts.Enemy
 {
-    public abstract class Enemy : MonoBehaviour
+    public abstract class EnemyController : MonoBehaviour
     {
         protected EFraction EnemyFraction;
         protected float MoveSpeed;
+        protected float RotationSpeed;
         protected int Damage;
         protected int Health;
 
         protected float DistanceAttack;
 
         protected GameObject Target;
+        protected Rigidbody Rigidbody;
 
         public void UpdateTarget(GameObject newTarget)
         {
@@ -24,21 +23,24 @@ namespace Enemy
 
         protected void MoveTowardTarget()
         {
-            //Vector3 vector3 = (Target.transform.position - transform.position).normalized;
+            if (Target == null)
+            {
+                Debug.Log(this.gameObject.name + " on target");
+                return;
+            }
+            else
+            {
+                Vector3 direction = (Target.transform.position - transform.position).normalized;
+
+                Rigidbody.velocity = direction * MoveSpeed; 
+            }
+
+            //transform.position += vector3 * MoveSpeed;
         }
 
         protected void FollowTarget()
         {
-            if (Target != null)
-            {
-                Vector3 vector3 = (Target.transform.position - transform.position).normalized;
-
-                transform.position += vector3 * MoveSpeed;
-            }
-            else
-            {
-                Debug.Log(this.gameObject.name + " on target");
-            }
+            
         }
 
         public abstract void Move();

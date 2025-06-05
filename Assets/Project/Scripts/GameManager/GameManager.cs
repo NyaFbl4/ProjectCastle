@@ -2,7 +2,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Assets.Project.Scripts.GameManager
+namespace Scripts.GameManager
 {
     public class GameManager : MonoBehaviour
     {
