@@ -689,9 +689,12 @@ MonoBehaviour:
   _target: {fileID: 588576065}
   _enemyFraction: 0
   _moveSpeed: 5
-  _distanceAttack: 1
+  _rotationSpeed: 5
+  _distanceAttack: 2
+  _cooldownAttack: 2
   _damage: 1
   _health: 1
+  _isInAttackRange: 0
   _rigidbody: {fileID: 1956539517}
 --- !u!4 &1956539516
 Transform:
