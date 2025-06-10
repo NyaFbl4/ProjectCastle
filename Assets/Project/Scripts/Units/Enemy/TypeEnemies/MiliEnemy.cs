@@ -14,7 +14,7 @@ namespace Scripts.Enemy.TypeEnemies
         [SerializeField] private int _damage;
         [SerializeField] private int _health;
 
-        [SerializeField] private bool _isInAttackRange;
+        //[SerializeField] private bool _isInAttackRange;
 
         [SerializeField] private Rigidbody _rigidbody;
         
@@ -30,40 +30,14 @@ namespace Scripts.Enemy.TypeEnemies
             base.Damage = _damage;
             base.Health = _health;
             base.Rigidbody = _rigidbody;
+            base.DistanceAttack = _distanceAttack;
+            base.IsInAttackRange = false;
 
             base.AttackIsReady = true;
 
-            _isInAttackRange = false;
+            //_isInAttackRange = false;
         }
-
-        public void FixedUpdate()
-        {
-            float distanceToTarget = Vector3.Distance(transform.position, 
-                _target.transform.position);
-            
-            if (distanceToTarget <= _distanceAttack)
-            {
-                _isInAttackRange = true;
-            }
-
-            if (!_isInAttackRange)
-            {
-                Move();
-            }
-            else
-            {
-                Rigidbody.velocity = Vector3.zero;
-
-                if (base.AttackIsReady)
-                {
-                    Attack();
-                    base.AttackIsReady = false;
-                    StartAttackCooldown();
-                }
-            }
-            
-            RotateTowardsTarget();
-        }
+        
 
         protected override void Move()
         {

@@ -15,16 +15,48 @@ namespace Scripts.Enemy
         protected int Damage;
         protected int Health;
 
+        protected bool IsInAttackRange;
         protected bool AttackIsReady;
         
         protected GameObject Target;
         protected Rigidbody Rigidbody;
 
-        public void UpdateTarget(GameObject newTarget)
+        private void Update()
         {
-            Target = newTarget;
-        }
+            float distanceToTarget = Vector3.Distance(transform.position,
+                Target.transform.position);
 
+            if (distanceToTarget <= DistanceAttack)
+            {
+                IsInAttackRange = true;
+            }
+            else
+            {
+                IsInAttackRange = false;
+            }
+        }
+        
+        public void FixedUpdate()
+        {
+            if (!IsInAttackRange)
+            {
+                Move();
+            }
+            else
+            {
+                Rigidbody.velocity = Vector3.zero;
+
+                if (AttackIsReady)
+                {
+                    Attack();
+                    AttackIsReady = false;
+                    StartAttackCooldown();
+                }
+            }
+            
+            RotateTowardsTarget();
+        }
+        
         protected void MoveTowardTarget()
         {
             if (Target == null)
@@ -83,6 +115,11 @@ namespace Scripts.Enemy
         public int DealDamage()
         {
             return Damage;
+        }
+        
+        public void UpdateTarget(GameObject newTarget)
+        {
+            Target = newTarget;
         }
 
         private void Death()
