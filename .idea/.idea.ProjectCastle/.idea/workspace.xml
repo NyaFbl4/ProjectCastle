@@ -17,6 +17,7 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameManager/GameListeners.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/TypeEnemies/MiliEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/GroundSystem/GroundSystem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2xx3xrY9N8DIrpPJtuNu0lc6pbg" />
@@ -45,6 +46,8 @@
       <workItem from="1749105528898" duration="8719000" />
       <workItem from="1749196585082" duration="1241000" />
       <workItem from="1749459767084" duration="6527000" />
+      <workItem from="1749633423170" duration="804000" />
+      <workItem from="1750156785263" duration="337000" />
     </task>
     <servers />
   </component>
