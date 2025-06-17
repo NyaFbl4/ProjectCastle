@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Public/Repos/!Testovoe/ProjectCastle/Assets/Project/Scripts/Systems/Building/Building.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/Enemy.cs" />
@@ -18,6 +21,8 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/TypeEnemies/MiliEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Units/Enemy/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/GroundSystem/GroundSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Building/Building.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Building/BuildingsGrid.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2xx3xrY9N8DIrpPJtuNu0lc6pbg" />
@@ -47,7 +52,7 @@
       <workItem from="1749196585082" duration="1241000" />
       <workItem from="1749459767084" duration="6527000" />
       <workItem from="1749633423170" duration="804000" />
-      <workItem from="1750156785263" duration="337000" />
+      <workItem from="1750156785263" duration="5259000" />
     </task>
     <servers />
   </component>

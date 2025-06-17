@@ -1245,6 +1245,10 @@
               <e p="GameManager.cs" t="Include" />
             </e>
             <e p="Systems" t="Include">
+              <e p="Building" t="Include">
+                <e p="Building.cs" t="Include" />
+                <e p="BuildingsGrid.cs" t="Include" />
+              </e>
               <e p="GroundSystem" t="Include">
                 <e p="GroundSystem.cs" t="Include" />
               </e>
