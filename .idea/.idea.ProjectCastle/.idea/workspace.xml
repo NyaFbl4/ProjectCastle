@@ -7,9 +7,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Public/Repos/!Testovoe/ProjectCastle/Assets/Project/Scripts/Systems/Building/Building.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/Enemy.cs" />
@@ -53,6 +50,7 @@
       <workItem from="1749459767084" duration="6527000" />
       <workItem from="1749633423170" duration="804000" />
       <workItem from="1750156785263" duration="5259000" />
+      <workItem from="1750231793093" duration="5742000" />
     </task>
     <servers />
   </component>

@@ -4,14 +4,34 @@ namespace Assets.Project.Scripts.Systems.Building
 {
     public class Building : MonoBehaviour
     {
-        [SerializeField] private  Vector2Int Size = Vector2Int.one;
+        [SerializeField] private Vector2Int _sizeVector = Vector2Int.one;
+        [SerializeField] private Renderer _mainRenderer;
 
+        //public Renderer MainRenderer => _mainRenderer;
+        public Vector2Int SizeVector => _sizeVector;
+
+        public void SetTransparent(bool available)
+        {
+            if (available)
+            {
+                _mainRenderer.material.color = Color.green;
+            }
+            else
+            {
+                _mainRenderer.material.color = Color.red;
+            }
+        }
+
+        public void SetNormalColor()
+        {
+            _mainRenderer.material.color = Color.white;
+        }
         
          void OnDrawGizmosSelected()
         {
-            for (int x = 0; x < Size.x; x++)
+            for (int x = 0; x < _sizeVector.x; x++)
             {
-                for (int y = 0; y < Size.y; y++)
+                for (int y = 0; y < _sizeVector.y; y++)
                 {
                     if ((x + y) % 2 == 0)
                     {
