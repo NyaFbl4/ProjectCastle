@@ -1290,7 +1290,7 @@
             <e p="Units" t="Include">
               <e p="Enemy" t="Include">
                 <e p="EEnemyType.cs" t="Include" />
-                <e p="Enemy.cs" t="Include" />
+                <e p="EnemyController.cs" t="Include" />
                 <e p="TypeEnemies" t="Include">
                   <e p="MiliEnemy.cs" t="Include" />
                 </e>

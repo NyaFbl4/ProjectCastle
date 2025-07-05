@@ -14,8 +14,6 @@ namespace Scripts.Enemy.TypeEnemies
         [SerializeField] private int _damage;
         [SerializeField] private int _health;
 
-        //[SerializeField] private bool _isInAttackRange;
-
         [SerializeField] private Rigidbody _rigidbody;
         
         public void Start()

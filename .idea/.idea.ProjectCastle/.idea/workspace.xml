@@ -20,6 +20,11 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/GroundSystem/GroundSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Building/Building.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Building/BuildingsGrid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/EnemyStateFSM.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/EnemyFSM.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/States.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/States/StateIdleFSM.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy/FSM/States/StateWalkFSM.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2xx3xrY9N8DIrpPJtuNu0lc6pbg" />

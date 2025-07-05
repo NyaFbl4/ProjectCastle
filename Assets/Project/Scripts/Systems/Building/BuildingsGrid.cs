@@ -71,27 +71,6 @@ namespace Assets.Project.Scripts.Systems.Building
 
         private void OnDrawGizmosSelected()
         {
-            var width = _gridSize.x * Step;
-            var height = _gridSize.y * Step;
-
-            for (var x = 0; x < _gridSize.x; x++)
-            {
-                for (var y = 0; y < _gridSize.y; y++)
-                {
-                    if ((x + y) % 2 == 0) Gizmos.color = _firstGridColor;
-                    else Gizmos.color = _secondGridColor;
-
-                    var startOffset = new Vector3((width / 2f) - (Step / 2), (height / 2f) - (Step / 2), 0f);
-                    var startPos = transform.position - startOffset;
-                    var offset = new Vector3(x * Step, y * Step, 0);
-
-                    Gizmos.DrawCube(startPos + offset, new Vector3(Step, Step, 0.002f));
-                }
-            }
-        }
-
-        private void OnDrawGizmos()
-        {
             if (!_drawGridGizmos) return;
 
             // Рассчитываем начальную позицию с учетом origin
